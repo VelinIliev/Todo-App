@@ -1,0 +1,92 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    background-color: grey;
+    
+}
+.container {
+    width: 30em;
+    height: 50em;
+    margin: 5em auto;
+    overflow: hidden;
+    border-radius: 2em;
+    background-color: white;
+    
+    /* background-color: red; */
+    border: 1px solid black;
+}
+.header{
+    box-sizing: border-box;
+    height: 5.2rem;
+    background-color: white;
+    padding: .9rem .4rem;
+    /* border: 1px solid red */
+}
+.date, .time, .tasks {
+    box-sizing: border-box;
+    float: left;
+    font-size: 1.05em;
+    font-weight: 800;
+    padding: 0 2em;
+    color: #555;
+    /* border: 1px solid black; */
+}
+.total {
+    width: 44%;
+}
+.active {
+    width: 56%;
+}
+.time {
+    width: 50%;
+    text-align: right;
+}
+.date {
+    width: 50%;
+}
+.tasks {
+    margin-top: .5em;
+    font-weight:normal;
+}
+.taskList {
+    width: 100%;
+    height: 43.2em;
+    /* border: 1px solid red; */
+}
+.addNewTask {
+    box-sizing: border-box;
+    height: 2em;
+    padding-top: .3em;
+    padding-left: 3em;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+
+}
+ul {
+    margin:0;
+    padding: 1em 2em;
+}
+ul>li {
+    float: left;
+    width: 100%;
+    display: block;
+    /* padding-left: 2.2em; */
+    color: #444;
+    padding: .5em 0;
+    border-bottom: 1px solid black;
+    
+}
+.fa-check-circle {
+    float: left;
+    margin-right: .5em;
+}
+.fa-trash-alt {
+    float: right;
+}
+/* .fa {color: #444;} */
+.green {
+    background-color: greenyellow;
+    text-decoration: line-through;
+}
